@@ -1,0 +1,47 @@
+.outline-none {
+   outline: none;
+}
+
+.border {
+    border: 2px solid rgba(13, 110, 253, 1) !important;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px #bababa !important;
+}
+
+button:hover {
+    transition: 0.5s all ease-in-out;
+    background-color: rgb(16, 104, 236) !important;
+}
+
+input:focus {
+    border: 2px solid rgb(11, 73, 167) !important;
+}
+
+.border-right {
+  border-right: 1px solid #000;
+}
+
+.weather-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.weather-card:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 360px) {
+    .input-responsive {
+      width: 100% !important;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .btn-responsive {
+      display: block;
+      width: 100%;
+    }
+  }
+
