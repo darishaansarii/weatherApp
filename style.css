@@ -33,7 +33,7 @@ input:focus {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 365px) {
+@media (max-width: 380px) {
     .input-responsive {
       width: 100% !important;
       display: block;
